@@ -1,0 +1,18 @@
+:root{
+    --cor-dos-texto:pink;
+    --tamanho-texto:20px;
+}
+
+h2{
+    color: var(--cor-dos-texto,blue);
+    font-size: var(--tamanho-texto,10px);
+
+}
+p{
+    color: var(--cor-dos-texto,blue);
+    font-size: var(--tamanho-texto,10px);
+}
+span{
+    color: var(--cor-dos-texto,blue);
+    font-size: var(--tamanho-texto,10px);
+}
