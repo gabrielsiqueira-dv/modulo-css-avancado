@@ -1,0 +1,69 @@
+body{
+    background-color: var(--primaria-projeto);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10px;
+ 
+}
+.cartao{
+    background-color: white;
+    max-width: 348px;
+    border-radius: 15px;
+    text-align: center;
+    
+   
+   
+}
+.cartao .imagem-avatar{
+   
+    border-radius: 50%;
+padding: 20px;
+    
+}
+.cartao  .nome {
+    font-size: 27px;
+ 
+    padding: 5px;
+}
+.cartao  .idade{
+    font-size: 25px;
+ opacity: 0.6;
+
+}
+.cartao .pais{
+    text-align: center;
+    margin: 20px;
+font-size: 25px;
+opacity: 0.4;
+padding-bottom: 15px;
+} 
+
+.cartao .creador{
+    border-top: 2px solid grey;
+    padding: 5px;
+}
+.cartao .creador .lista{
+    display: flex;
+    align-content: space-around;
+   
+}
+.cartao .creador .lista ul{
+    padding: 20px;
+}
+.cartao .creator .lista .curtidas{
+    opacity: 0.4;
+    padding-top: 5px;
+}
+.cartao .creator .lista .pontuacao{
+    font-weight: 700;
+    font-size: 25px;
+}
+p{
+    font-weight: 700;
+}
+
