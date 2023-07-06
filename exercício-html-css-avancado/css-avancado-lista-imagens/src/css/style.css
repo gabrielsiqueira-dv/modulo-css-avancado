@@ -1,0 +1,49 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+
+}
+.container{
+    display: flex;
+    gap
+    justify-content: center;
+   padding: 25px;
+}
+.container .img{
+    width: 344px;
+    height: 432px;
+    display: flex;
+  margin: 10px;
+}
+.container .item1{
+    background-image: url(../imagens/3\ 1.png);
+    background-repeat: no-repeat;
+}
+.container .item2{
+    background-image: url(../imagens/4\ 1.png);
+    background-repeat: no-repeat;
+}
+.container .item3{
+    background-image: url(../imagens/5\ 2.png);
+    background-repeat: no-repeat;
+
+}
+.container .item4{
+    background-image: url(../imagens/6\ 2.png);
+    background-repeat: no-repeat;
+}
+.container .item {
+    align-self: flex-end;
+    color: #ffffff;
+    margin: 20px;
+}
+.container .item h2{
+    font-size:30px;
+    font-weight: 700;
+    padding: 10px;
+    
+}
+.container .item p{
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 0px;
+}
