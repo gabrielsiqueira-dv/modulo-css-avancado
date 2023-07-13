@@ -1,0 +1,64 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.container {
+
+    display: grid;
+    grid-template-areas: "retangle1 propagranda"
+        "retangle videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    max-width: 900px;
+    background: #F7F7F7;
+    gap: 20px;
+    padding: 35px;
+
+}
+.videos img{
+    width: 101px;
+    height: 71px;
+}
+.retangle1{
+    grid-area: retangle1;
+  
+}
+.propagranda{
+    grid-area: propagranda;
+  
+}
+.videos-sugeridos{
+    grid-area: videos-sugeridos;
+    
+}
+.videos-sugeridos .videos{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.videos-sugeridos .videos .titulo{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.videos-sugeridos .videos p{
+     font-size: 11px;
+     margin-bottom: 5px;
+}
+.retangle1 iframe {
+    margin-bottom: 12px;
+    width: 100%;
+}
+.retangle1 .titulo{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.retangle1 .paragrafo-visualizacao{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
